@@ -1,0 +1,281 @@
+<html>
+
+<head>
+
+    <title>Games</title>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="mycode.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+
+    <h1 class="grenn">
+        <p id="h1" class="center display-3"> pLay! </p>
+    </h1>
+
+    <from action="/novoCliente">
+
+        <p class="center">Nome:<input name="nome"><br><br>
+            Senha:<input type="password" name="senha"><br>
+            <testarea name="password"></testarea>
+            <br>
+            Caso não seja cadastrado <button ref='#ancora' type="button" class="btn btn-dark">Clique aqui!</button>
+
+            <br>
+        </p>
+        <div class="wrapper">
+            <div id="leftsidebar">
+                <ul id="menulist">
+                    <li class="menulist"></li>
+            </div>
+        </div>
+        <div id="main"></div>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Lista de Jogos</h1>
+            <h2 class="display-5">Dark Souls</h2>
+
+            <p class="lead">Dark Souls é um videojogo do gênero RPG de ação e aventura. Foi desenvolvido e publicado
+                para PlayStation 3, Xbox 360 e Microsoft Windows (PC) pela From Software no Japão e pela Namco Bandai
+                Games
+                internacionalmente. Antes referido como
+                Project Dark, é o sucessor espiritual de Demon's Souls, o jogo anterior da From Software.
+                Em agosto de 2012, a edição "Prepare to Die" de Dark Souls foi lançada para Windows, com um
+                conteúdo adicional, até então não disponível aos usuários das plataformas PlayStation 3 e Xbox 360. Em
+                outubro de 2012, o conteúdo adicional presente na plataforma PC foi lançada também para os consoles
+                através da DLC Artorias of the Abyss.</p>
+
+
+            <a class="btn btn-dark" href='https://pt.wikipedia.org/wiki/Dark_Souls' role="button">Mais Informações </a>
+        </div>
+
+
+
+
+
+
+        <div><img class="darksouls"
+                src='https://http2.mlstatic.com/dark-souls-1-ps3-todos-os-itens-do-jogo-save-gameunlock-D_NQ_NP_901605-MLB27996680212_082018-F.webp' />
+        </div>
+
+        <div class="jumbotron">
+            <h1 class="display-5"> Resident Evil </h1>
+            <p>Site referencia: <a href='https://pt.wikipedia.org/wiki/Resident_Evil'> Clique no Link. </a></p>
+
+            <p class="lead">Resident Evil (conhecido como Biohazard no Japão) é uma franquia de mídia que pertence à
+                empresa de
+                videogames Capcom. Foi criada por Shinji Mikami como uma série de jogos de survival horror,
+                iniciada em 1996 com Resident Evil para PlayStation. Desde então, a série de jogos passou a incluir
+                o gênero ação e até agora já vendeu 80 milhões de unidades.
+                A franquia Resident Evil é constituída por história em quadrinhos, livros, filmes e uma variedade de
+                coleções,incluindo figuras de ação e guias de estratégias. Foi influenciada pelos filmes de
+                George A. Romero e também pelo jogo Alone in the Dark.Enquanto os jogos aderem a uma história mais
+                consistente, existem alguns desvios do enredo nos filmes e nos livros, que são considerados histórias
+                paralelas.</p>
+            <p class="center"><img
+                    src='http://s2.glbimg.com/uzCOznXqi9GSLaNpgvis5ysRz3Y=/695x0/s.glbimg.com/po/tt2/f/original/2017/01/19/resident-evil-7-biohazard-artwork-004.jpg'
+                    style="border: 5px black"></p>
+
+        </div>
+
+        <h1>
+
+            <p class="center">
+                <from id='ancora'><strong>Cadastre-se</strong>
+            </p>
+        </h1>
+        <br>
+        <form class="cadastro">
+
+
+            <div class="form-group ">
+                <label aliagn="center" for="exampleInputEmail1">Email</label>
+                <input type="email" name="email" class="form-control " aria-describedby="emailHelp"
+                    placeholder="Digite Seu Email">
+                <label>Idade</label>
+                <input type="email" name="msg" class="form-control" aria-describedby="emailHelp"
+                    placeholder="Digite Seu Idade">
+                <label for="exampleInputPassword1">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite Sua Senha">
+                <div class="form-group form-check">
+                    <br>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Desejo receber informações pelo email</label>
+                </div>
+                <button ref='#ancora' type="button" class="btn btn-dark center">Cadastrar</button>
+            </div>
+        </form>
+        <div class='cadastro2'>
+            <p><strong>
+                    <h2 class='p2'>Jogos de preferência:</h2>
+                </strong></p>
+            <br<br>
+                <ul>
+                    <select name="jogos">
+                        <option value="RJ">Terror</option>
+                        <option value="SC">FPS</option>
+                        <option value="SP">RPG</option>
+                        <option value="SP">Aventura</option>
+                    </select>
+                </ul>
+                </form>
+                <form>
+
+
+                    <p><strong>
+                            <h2 class='p2'>Jogos frequentes:</h2>
+                        </strong></p>
+                    <br<br>
+                        <ul>
+                            <input name="Jogos" type="checkbox" value="LP2">Lolzinho<br>
+                            <input name="Jogos" type="checkbox" value="DW1">Fortnite<br>
+                            <input name="Jogos" type="checkbox" value="ES">COD<br>
+                            <input name="Jogos" type="checkbox" value="ES">TOOOOUDOS<br>
+                            <input name="Jogos" type="checkbox" value="ES">Nenhum não<br>
+                </form>
+                </ul>
+                <form>
+                    <p><strong>
+                            <h2 class='p2'>Consoles de preferência:</h2>
+                        </strong></p>
+                    <br<br>
+                        <ul>
+                            <input name="consoles" type="radio" value="LP2">PS4<br>
+                            <input name="consoles" type="radio" value="DW1">XBOX<br>
+                            <input name="consoles" type="radio" value="ES">PC<br>
+                </form>
+                </ul>
+                <br>
+                <ul>
+                </ul>
+        </div>
+
+
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span onclick="openNav()">open</span>
+
+
+
+        <!-- menu carrossel -->
+
+        <h1> CONFIRA OS LANÇAMENTOS </h1>
+
+        <p class='borde' >
+        
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="https://s2.gaming-cdn.com/images/products/163/screenshot/alice-madness-returns-wallpaper-2.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="https://images7.alphacoders.com/798/thumb-1920-798682.png" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="https://www.littlemisfortune.com/wp-content/uploads/2019/03/LittleMisfortune_RevealPoster_2018_Medium-800x480.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </p>
+    <br><br>
+
+
+        <script type="text/javascript" src="nome_arquivo.js">
+        </script>
+
+        <script src="arquivo.js" defer async charset="utf-8"></script>
+
+        <script type="text/javascript">
+
+            alert(" Bem Vindo !");
+            
+
+        </script>
+
+        <script>openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            /* Close when someone clicks on the "x" symbol inside the overlay */
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+
+        </script>
+
+        
+
+        <script>var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+</body>
+
+</html>
